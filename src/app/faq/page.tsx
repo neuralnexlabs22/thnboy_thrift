@@ -42,7 +42,7 @@ export default function FAQPage() {
       </div>
       
       <div className="bg-background rounded-3xl">
-        <Accordion type="single" collapsible className="w-full">
+        <Accordion className="w-full">
           {FAQS.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
               <AccordionTrigger className="text-left text-lg font-bold">{faq.question}</AccordionTrigger>

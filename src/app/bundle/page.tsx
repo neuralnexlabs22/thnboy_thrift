@@ -129,7 +129,7 @@ export default function BundlePage() {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6 md:px-12 max-w-3xl">
           <h2 className="font-heading text-4xl font-bold uppercase tracking-tighter mb-12 text-center">Frequently Asked Questions</h2>
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-lg font-bold">Can I choose the items in my bundle?</AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed text-base">
