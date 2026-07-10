@@ -12,10 +12,6 @@ const oswald = Oswald({
   subsets: ["latin"],
 });
 
-import { StoreProvider } from "@/context/store-context";
-import { Navbar } from "@/components/layout/navbar";
-import { Footer } from "@/components/layout/footer";
-
 export const metadata: Metadata = {
   title: "TNBOY Thrift | Premium Streetwear",
   description: "Premium streetwear and vintage collection.",
@@ -32,13 +28,7 @@ export default function RootLayout({
       className={`${inter.variable} ${oswald.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans bg-background text-foreground">
-        <StoreProvider>
-          <Navbar />
-          <main className="flex-grow">
-            {children}
-          </main>
-          <Footer />
-        </StoreProvider>
+        {children}
       </body>
     </html>
   );

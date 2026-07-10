@@ -40,7 +40,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="z-50 relative group">
           <span className="font-heading text-2xl font-bold tracking-tighter uppercase relative z-10">
-            TNBOY
+            TN
           </span>
           <motion.div
             className="absolute -bottom-1 left-0 w-full h-[2px] bg-foreground origin-left"

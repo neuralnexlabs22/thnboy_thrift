@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Oversized Heavyweight Hoodie",
+      "price": 6500,
+      "originalPrice": 8000,
+      "category": "jackets",
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "Grey"],
+      "description": "Premium heavyweight cotton hoodie.",
+      "badge": "Sale",
+      "isNew": true,
+      "isTrending": true,
+      "stock": 15
+    },
+    {
+      "id": "p2",
+      "name": "Vintage Wash Denim Jacket",
+      "price": 8500,
+      "category": "jackets",
+      "images": [
+        "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["Vintage Blue"],
+      "description": "Classic denim jacket.",
+      "isTrending": true,
+      "stock": 8
+    }
+  ],
+  "categories": [
+    { "id": "jackets", "name": "Outerwear", "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000&auto=format&fit=crop" },
+    { "id": "jerseys", "name": "Jerseys", "image": "https://images.unsplash.com/photo-1616124619460-ff4ed8f4683c?q=80&w=1000&auto=format&fit=crop" },
+    { "id": "shirts", "name": "Tees", "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1000&auto=format&fit=crop" }
+  ],
+  "orders": [
+    {
+      "id": "ORD-001",
+      "customerName": "John Doe",
+      "email": "john@example.com",
+      "total": 6500,
+      "status": "Processing",
+      "date": "2026-07-09T10:00:00Z",
+      "items": [
+        { "productId": "p1", "quantity": 1, "price": 6500 }
+      ]
+    }
+  ],
+  "settings": {
+    "storeName": "TN",
+    "email": "support@tn.com",
+    "currency": "INR"
+  }
+}

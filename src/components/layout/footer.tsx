@@ -12,7 +12,7 @@ export function Footer() {
           {/* Brand & Newsletter */}
           <div className="lg:col-span-2">
             <h2 className="font-heading text-3xl font-bold tracking-tighter uppercase mb-6">
-              TNBOY
+              TN
             </h2>
             <p className="text-muted-foreground max-w-sm mb-8 leading-relaxed">
               Premium streetwear crafted with minimalist aesthetics and uncompromising quality. Join our community for exclusive drops.
@@ -68,7 +68,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} TNBOY Thrift. All rights reserved.
+            &copy; {new Date().getFullYear()} TN. All rights reserved.
           </p>
           
           <div className="flex items-center gap-6 text-muted-foreground text-sm font-bold uppercase tracking-widest">
