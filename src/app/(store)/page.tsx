@@ -8,7 +8,7 @@ import { PRODUCTS } from "@/lib/data";
 
 const fadeUpVariant = {
   hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" as const } },
 };
 
 export default function Home() {
@@ -49,7 +49,7 @@ export default function Home() {
             className="flex flex-col items-center"
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight uppercase mb-6 drop-shadow-lg">
-              TN
+              TNboy Thrift
             </h1>
             <p className="text-lg md:text-xl font-medium tracking-wide uppercase mb-10 max-w-lg drop-shadow-md">
               Premium Collection
